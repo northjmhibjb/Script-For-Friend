@@ -1,3 +1,10 @@
+--If Your seeing this your not the person this script was intended for, this is a script for my lil brother and yes I know its very bad
+game.StarterGui:SetCore("SendNotification", {
+Title = "Read Me!!"; 
+Text = "Hey Jaxon! There Has Been No Updates!"; 
+Icon = "rbxassetid://57254792"; 
+Duration = 10; 
+})
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
@@ -28,5 +35,13 @@ Section2:NewButton("Swim Hack Off", "Swim Hack", function()
 local a=game:GetService("Players").LocalPlayer;workspace.Gravity=198.2;swimming=false;if gravReset then gravReset:Disconnect()end;a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,true)a.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)a.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
 end)
 
-Section:NewButton("Car Crushers 2", "", function()
+Section2:NewButton("Remove Display Names", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/northjmhibjb/Script-For-Friend/main/AntiDisplayName"))()
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Script Inforamrion"; -- the title (ofc)
+Text = "Names Modded. Jaxon!"; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 5; -- how long the notification should in secounds
+})
 end)
