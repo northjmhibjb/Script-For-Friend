@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick()
+game.Players.LocalPlayer:Kick('Killer Whale has fucked your account you fucking bitch')
