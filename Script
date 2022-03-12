@@ -1,7 +1,7 @@
 --If Your seeing this your not the person this script was intended for, this is a script for my lil brother and yes I know its very bad
 game.StarterGui:SetCore("SendNotification", {
 Title = "Read Me!!"; 
-Text = "Hey Jaxon! There Has Been No Updates!"; 
+Text = "Hey Jaxon! I added a hack that gives you infinite money on broken bones 4 "; 
 Icon = "rbxassetid://57254792"; 
 Duration = 10; 
 })
@@ -25,6 +25,10 @@ end)
 
 Section:NewButton("Brookhaven Hack", "Ice Hub For Brookhaven", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven", true))()
+end)
+
+Section:NewButton("Broken bones 4 $$$", "f", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/northjmhibjb/Script-For-Friend/main/BB4"))()
 end)
 
 Section2:NewButton("Swim Hack On", "Swim Hack", function()
