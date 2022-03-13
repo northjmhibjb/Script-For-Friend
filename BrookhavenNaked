@@ -1,0 +1,15 @@
+local ohString1 = "wear"
+local ohNumber2 = 2079526616
+game:GetService("ReplicatedStorage").RemoteEvents.U16pdateA16vatar:FireServer(ohString1, ohNumber2)
+local ohString1 = "wear"
+local ohNumber2 = 3495991410
+game:GetService("ReplicatedStorage").RemoteEvents.U16pdateA16vatar:FireServer(ohString1, ohNumber2)
+local ohString1 = "skintone"
+local ohString2 = "Light orange"
+game:GetService("ReplicatedStorage").RemoteEvents.U16pdateA16vatar:FireServer(ohString1, ohString2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "INFO"; 
+Text = "SUCCsess"; 
+Icon = "rbxassetid://57254792"; 
+Duration = 4; 
+})
